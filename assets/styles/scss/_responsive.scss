@@ -1,0 +1,27 @@
+@media screen and (max-width: 687px) {
+    .wrapper {
+        .container {
+            display: flex;
+            flex-direction: column;
+            .gridBox1 {
+                .box1 {
+                    font-size: 0.8rem;
+                    div {
+                        font-size: initial;
+                        margin-bottom: 15px;
+                    }
+                    p {
+                        font-size: 13px;
+                        letter-spacing: initial;
+                    }
+                }
+            }
+        }
+    }
+    .box-container {
+        padding: 25px;
+    }
+    .box--whiteText {
+        height: initial;
+    }
+}
